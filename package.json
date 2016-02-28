@@ -13,6 +13,7 @@
     "preclean:start": "npm run clean",
     "clean:start": "npm start",
     "test": "karma start",
+    "watch:test": "npm run test -- --auto-watch --no-single-run",
     "ci": "npm run e2e && npm run test",
     "typings-install": "typings install",
     "postinstall": "npm run typings-install"
